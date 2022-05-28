@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ /* Componente App */
+.H1arriba{
+  margin-top:1em;
+}
+.divMayor{
+ margin-top: 1em;
+  padding: 2em;
+  width: 50em;
+  height:30em;
+  border: solid 1px black;
+}
+.Abottom{
+  margin-top: 1em;
+  padding: 2em;
+  width: 40em;;
+  border: solid 1px black;
+    float: left;
+
+}
+#inpConfirmacion{
+  border: 0;
+}
+input{
+  margin-left:0.25em;
+}
+.divInputs{
+  
+  float: left;
+}
+
+
+ /* Componente TextoGenerico */
+.txtGenerico{
+  margin: 1em;
+  border: solid 1px black;
+  height: 11em;
+  width: 25em;
+float: right; 
+}
+
+
