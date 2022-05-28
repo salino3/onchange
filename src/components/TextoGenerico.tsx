@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react';
-import App from '../App';
 import "../App.css";
 
 interface props {
