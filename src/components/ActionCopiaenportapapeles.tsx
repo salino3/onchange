@@ -38,6 +38,7 @@ const ActionCopiaenportapapeles = ({ par }: props) => {
       <Input
         onCl={null}
         onCh={handleChange}
+        min={null}
         title={"input"}
         focus={null}
         pl={""}

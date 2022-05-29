@@ -8,15 +8,16 @@ interface props {
   focus: any;
   name?: string;
   onCh: any;
-  onCl: any,
+  onCl: any;
+  min: string | number;
   p: string;
 }
 
-const Input = ({lbl, title, tipo, pl, focus, name, onCh, onCl, p}:props) => {
+const Input = ({lbl, title, tipo, pl, focus, name, onCh, onCl, min, p}:props) => {
   return (
     <Fragment>
       <label>{lbl}</label>
-      <input title={title} type={tipo} placeholder={pl} onFocus={focus} name={name} onChange={onCh} onClick={onCl}  />
+      <input title={title} type={tipo} placeholder={pl} onFocus={focus} name={name} onChange={onCh} onClick={onCl} min={min} />
       <p>{p}</p>
     </Fragment>
   );

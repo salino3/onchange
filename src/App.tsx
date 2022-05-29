@@ -54,6 +54,7 @@ function App() {
               onCh={(evento) => {
                 setfirst(evento.target.value);
               }}
+              min={null}
               title={"input"}
               focus={null}
               pl={""}
@@ -68,6 +69,7 @@ function App() {
               onCh={(evento) => {
                 setsecond(evento.target.value);
               }}
+              min={null}
               title={"input"}
               focus={null}
               pl={""}
@@ -82,6 +84,7 @@ function App() {
               onCh={(evento) => {
                 setthird(evento.target.value);
               }}
+              min={0}
               title={"input"}
               focus={null}
               pl={""}
@@ -96,6 +99,7 @@ function App() {
               onCh={(evento) => {
                 setfourth(evento.target.value);
               }}
+              min={null}
               title={"input"}
               focus={null}
               pl={""}
