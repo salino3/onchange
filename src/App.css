@@ -21,7 +21,7 @@
  margin-top: 1em;
   padding: 2em;
   width: 50em;
-  height:30em;
+  height:40em;
   border: solid 1px black;
 }
 .Abottom{
@@ -52,5 +52,7 @@ input{
   width: 25em;
 float: right; 
 }
-
-
+ /* Componente ValidacionFormulario */
+.parrafo{
+  margin-left: 5em;
+}
