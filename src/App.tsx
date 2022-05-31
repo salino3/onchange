@@ -1,6 +1,4 @@
 import { useState, Fragment } from "react";
-// npm install react-hook-form
-import { useForm } from "react-hook-form";
 
 import Input from "./components/Input";
 import TextoGenerico from "./components/TextoGenerico";
@@ -121,7 +119,7 @@ function App() {
           <div className="Abottom">
             <p> confirmación texto con datos personales de: ~{first}~ </p>
 
-            <button onClick={() => handleConLog()} type="submit" value={final}>
+            <button onClick={() => handleConLog()} type="submit" >
               Enviar 
             </button>
           </div>
