@@ -40,7 +40,7 @@ function App() {
       <h1 className="H1arriba">App</h1>
       <ActionCopiaenportapapeles par={`contenido input-nombre: ~${first} ~`} />
 
-      {/* div formulario*/}
+      {/* el div del formulario*/}
       <div className="divMayor">
         <form >
           <TextoGenerico
