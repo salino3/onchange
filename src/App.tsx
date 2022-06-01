@@ -1,6 +1,4 @@
 import { useState, Fragment } from "react";
-// npm install react-hook-form
-import { useForm } from "react-hook-form";
 
 import Input from "./components/Input";
 import TextoGenerico from "./components/TextoGenerico";

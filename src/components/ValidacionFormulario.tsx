@@ -1,11 +1,11 @@
 import React, {  useState, Fragment } from "react";
 // npm install react-hook-form
-import { useForm } from "react-hook-form"; // lo añadí también en 'package.json', 'package-lock.json'
+import { useForm } from "react-hook-form"; // está añadido también en 'package.json', 'package-lock.json'
 import Input from "./Input";
 
 const ValidacionFormulario = () => {
 
-  let valorInput = '';
+  let valorInput = "";
   let valorInput2 = "";
  const [first, setfirst] = useState(valorInput)
  const [second, setsecond] = useState(valorInput2)
@@ -28,7 +28,7 @@ const ValidacionFormulario = () => {
     <Fragment>
       <h1>Formulario FormExample:</h1>
       <div>
-        <p className="parrafo">~{second}~</p>
+        <p className="parrafo">~{second}~</p> 
       </div>
       <input
         placeholder="^al clicar envia el valor^"
@@ -36,7 +36,7 @@ const ValidacionFormulario = () => {
         onChange={(evento) => {
           setfirst(evento.target.value);
         }}
-        defaultValue={second}
+        // defaultValue={second} --> no hace falta
       />
       <button onClick={() => handleClick()}>pass value</button>
       <br />
